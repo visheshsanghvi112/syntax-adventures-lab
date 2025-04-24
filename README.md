@@ -1,3 +1,4 @@
+
 # Welcome to your Lovable project
 
 Created by Vishesh Sanghvi - https://www.visheshsanghvi.me/
@@ -76,4 +77,10 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 
 ## License
 
-All rights reserved. Created by Vishesh Sanghvi - https://www.visheshsanghvi.me/
+Copyright © 2024 Vishesh Sanghvi (https://www.visheshsanghvi.me/)
+
+All rights reserved. This project and its source code are the exclusive property of Vishesh Sanghvi. 
+Unauthorized copying, modification, distribution, or use of this software is strictly prohibited 
+without explicit written permission from the copyright owner.
+
+For inquiries about licensing or usage, please contact Vishesh Sanghvi via his personal website.
