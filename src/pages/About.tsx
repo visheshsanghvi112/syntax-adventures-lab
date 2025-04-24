@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -133,31 +132,6 @@ const About = () => {
                   <p>We foster a supportive community where students can collaborate, share ideas, and learn from each other's experiences.</p>
                 </CardContent>
               </Card>
-            </div>
-          </div>
-        </section>
-        
-        {/* Team Section */}
-        <section className="py-16">
-          <div className="container px-4 md:px-6">
-            <div className="text-center max-w-3xl mx-auto mb-12">
-              <h2 className="text-3xl font-bold mb-4">Meet Our Team</h2>
-              <p className="text-lg text-muted-foreground">
-                The passionate educators and developers behind Syntax Adventures Lab.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3, 4, 5, 6].map((item) => (
-                <div key={item} className="flex flex-col items-center text-center">
-                  <div className="w-32 h-32 rounded-full bg-muted mb-4"></div>
-                  <h3 className="text-xl font-medium">Team Member {item}</h3>
-                  <p className="text-primary">Position</p>
-                  <p className="mt-2 text-muted-foreground">
-                    Brief description about this team member and their expertise in programming education.
-                  </p>
-                </div>
-              ))}
             </div>
           </div>
         </section>
