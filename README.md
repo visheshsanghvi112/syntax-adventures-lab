@@ -1,5 +1,7 @@
 # Welcome to your Lovable project
 
+Created by Vishesh Sanghvi - https://www.visheshsanghvi.me/
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/f3dc6b41-ac63-450e-b3ed-e19abe24282c
@@ -71,3 +73,7 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+## License
+
+All rights reserved. Created by Vishesh Sanghvi - https://www.visheshsanghvi.me/
