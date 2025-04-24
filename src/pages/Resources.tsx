@@ -9,7 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { BookOpen, FileText, Book, Code, Download, ExternalLink, ArrowRight, Search } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const ResourcesPage = () => {
+const Resources = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />

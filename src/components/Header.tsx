@@ -70,10 +70,8 @@ const Header = () => {
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <Link to="/" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                      Home
-                    </NavigationMenuLink>
+                  <Link to="/" className={navigationMenuTriggerStyle()}>
+                    Home
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
@@ -81,15 +79,13 @@ const Header = () => {
                   <NavigationMenuContent>
                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                       <li className="row-span-3">
-                        <NavigationMenuLink asChild>
-                          <Link to="/courses" className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md">
-                            <BookOpen className="h-6 w-6 mb-2" />
-                            <div className="mb-2 mt-4 text-lg font-medium">All Courses</div>
-                            <p className="text-sm leading-tight text-muted-foreground">
-                              Explore our comprehensive collection of programming courses
-                            </p>
-                          </Link>
-                        </NavigationMenuLink>
+                        <Link to="/courses" className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md">
+                          <BookOpen className="h-6 w-6 mb-2" />
+                          <div className="mb-2 mt-4 text-lg font-medium">All Courses</div>
+                          <p className="text-sm leading-tight text-muted-foreground">
+                            Explore our comprehensive collection of programming courses
+                          </p>
+                        </Link>
                       </li>
                       <li>
                         <Link to="/courses/python" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
@@ -119,17 +115,13 @@ const Header = () => {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link to="/resources" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                      Resources
-                    </NavigationMenuLink>
+                  <Link to="/resources" className={navigationMenuTriggerStyle()}>
+                    Resources
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link to="/about" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                      About
-                    </NavigationMenuLink>
+                  <Link to="/about" className={navigationMenuTriggerStyle()}>
+                    About
                   </Link>
                 </NavigationMenuItem>
               </NavigationMenuList>
