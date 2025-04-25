@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Github, Twitter, Linkedin } from 'lucide-react';
+import { BookOpen, Github, Twitter, Linkedin, Code } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -19,14 +19,14 @@ const Footer = () => {
               An interactive platform for learning programming languages and computer science concepts.
             </p>
             <div className="flex space-x-4 pt-2">
-              <a href="https://github.com" className="text-muted-foreground hover:text-foreground" aria-label="GitHub">
+              <a href="https://github.com/visheshsanghvi112" className="text-muted-foreground hover:text-foreground" aria-label="GitHub">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://twitter.com" className="text-muted-foreground hover:text-foreground" aria-label="Twitter">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="https://linkedin.com" className="text-muted-foreground hover:text-foreground" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/vishesh-sanghvi-96b16a237/" className="text-muted-foreground hover:text-foreground" aria-label="LinkedIn">
                 <Linkedin className="h-5 w-5" />
+              </a>
+              <a href="https://www.visheshsanghvi.me/" className="text-muted-foreground hover:text-foreground" aria-label="Portfolio">
+                <Code className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-8 pt-6 flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Syntax Adventures Lab. All rights reserved.
+            &copy; {new Date().getFullYear()} Syntax Adventures Lab. All rights reserved by <a href="https://www.visheshsanghvi.me/" className="hover:text-primary transition-colors">Vishesh Sanghvi</a>.
           </p>
           <div className="flex items-center gap-4 mt-4 md:mt-0">
             <Link to="/privacy" className="text-sm text-muted-foreground hover:text-foreground">
